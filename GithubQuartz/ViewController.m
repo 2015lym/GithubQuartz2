@@ -16,9 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    Github *a=[[Github alloc]initWithFrame:CGRectMake(0, 0, 999, 999)];
-    [self.view addSubview:a];
-    // Do any additional setup after loading the view, typically from a nib.
+    Github *githubView = [[Github alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+    [self.view addSubview:githubView];
 }
 
 - (void)didReceiveMemoryWarning {

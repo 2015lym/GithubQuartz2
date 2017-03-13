@@ -16,7 +16,7 @@
 		38CC55C11C451454009D632E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38CC55BF1C451454009D632E /* LaunchScreen.storyboard */; };
 		38CC55CC1C451454009D632E /* GithubQuartzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CC55CB1C451454009D632E /* GithubQuartzTests.m */; };
 		38CC55D71C451454009D632E /* GithubQuartzUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CC55D61C451454009D632E /* GithubQuartzUITests.m */; };
-		38CC55E61C4514A0009D632E /* Github.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CC55E51C4514A0009D632E /* Github.m */; settings = {ASSET_TAGS = (); }; };
+		38CC55E61C4514A0009D632E /* Github.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CC55E51C4514A0009D632E /* Github.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -210,7 +210,7 @@
 		38CC55A31C451453009D632E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Lym;
 				TargetAttributes = {
 					38CC55AA1C451453009D632E = {
@@ -350,8 +350,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -394,8 +396,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -508,6 +512,7 @@
 				38CC55DD1C451454009D632E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38CC55DE1C451454009D632E /* Build configuration list for PBXNativeTarget "GithubQuartzTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +521,7 @@
 				38CC55E01C451454009D632E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38CC55E11C451454009D632E /* Build configuration list for PBXNativeTarget "GithubQuartzUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +530,7 @@
 				38CC55E31C451454009D632E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
